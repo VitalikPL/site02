@@ -127,6 +127,7 @@ div.onShadow div.makBook {
 	background: url(img/Macbook.png) center center no-repeat;
 }
 div.onShadow div.makBook a {
+	font-size: 12px;
 	display: block;
 	color: #0561ad;
 	margin: 280px 0 20px 239px;
