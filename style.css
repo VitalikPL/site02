@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font: Verdana, Arial, Sans-Serif;
+	font-family: Verdana, Arial, Sans-Serif;
 }
 ul {
 	list-style: none;
@@ -72,10 +72,12 @@ div.adver {
 	text-align: center;
 	color: white;
 	float: right;
-	margin-left: 320px;
+	margin-left: 160px;
 }
 div.adver:hover {
 	opacity: 1;
+	-webkit-transition: 2s;
+	-o-transition: 2s;
 	transition: 2s;
 }
 div.adver i {
@@ -91,6 +93,7 @@ div.shadow {
 	opacity: 0.5;
 	margin: 0 auto;
 	clear: left;
+	-webkit-border-radius: 10px;
 	border-radius: 10px; 
 }
 div.onShadow{
@@ -101,6 +104,7 @@ div.onShadow{
 	top: -330px;
 	left: 160px;
 	right: 160px;
+	-webkit-border-radius: 10px;
 	border-radius: 10px; 
 }
 div.onShadow div {
@@ -111,6 +115,7 @@ div.onShadow div {
 }
 div.onShadow div p {
 	color: grey;
+	font-size: 12px;
 }
 div.onShadow div:first-child {
 	color: snow;
@@ -128,6 +133,8 @@ div.onShadow div.makBook a {
 }
 div.onShadow div.makBook a:hover {
 	color: aqua;
+	-webkit-transition: 2s;
+	-o-transition: 2s;
 	transition: 2s;
 }
 /* CONTENT UP END */
@@ -162,6 +169,7 @@ div.contentDown hr {
 }
 div.com1, div.com2 {
 	padding: 10px 0 0 150px; 
+	font-size: 12px;
 }
 div.comFoto1 {
 	background: url(img/1267.jpg);
@@ -206,14 +214,17 @@ div.sometext1, div.sometext2 {
 	margin-top: 10px;
 	width: 205px;
 	float: left;
+	font-size: 12px;
 }
 form .email {
 	padding: 5px;
 	border: 3px solid #e5e5e5;
+	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	background-color: #f2f2f2;
 	color: #e5e5e5;
 	margin-top: 30px;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	width: 190px;
 }
@@ -224,10 +235,12 @@ div.buttonEmail {
 div.buttonEmail button {
 	width: 150px;
 	padding: 10px;
+	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	color: #3592eb;
 	background-color: #f7f7f7;
 	margin-right: 50px;
+	margin-bottom: 20px; 
 	cursor: pointer;
 }
 div.buttonEmail button:hover {
@@ -239,10 +252,11 @@ div.buttonEmail button:hover {
 /* CONTENT END */
 /* FOTTER BEGIN */
 footer {
+	font-size: 12px;
 	height: 64px;
 	width: 100%;
 	background: #0f0e16;
-	margin-top: 642px;
+	margin-top: 662px;
 }
 footer div.footer_text {
 	color: #e0e0e0;
