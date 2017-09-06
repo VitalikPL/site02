@@ -42,8 +42,9 @@ nav a:hover {
 }
 	/* HEADER AND */
 	/* CONTENT BEGIN */
+	/* CONTENT UP BEGIN */
 .spase {
-	background: url(fade.png) no-repeat center center;
+	background: url(img/fade.png) no-repeat center center;
 	width: 100%;
 	height: 482px;
 }
@@ -65,7 +66,7 @@ div.contentUp p {
 div.adver {
 	height: 90px;
 	width: 480px;
-	opacity: 0.5;
+	opacity: 0.3;
 	border: 2px solid white;
 	background: grey;
 	text-align: center;
@@ -75,6 +76,7 @@ div.adver {
 }
 div.adver:hover {
 	opacity: 1;
+	transition: 2s;
 }
 div.adver i {
  	line-height: 90px;
@@ -117,7 +119,7 @@ div.onShadow div span {
 	color: #c1c1cb;
 }
 div.onShadow div.makBook {
-	background: url(Macbook.png) center center no-repeat;
+	background: url(img/Macbook.png) center center no-repeat;
 }
 div.onShadow div.makBook a {
 	display: block;
@@ -126,4 +128,137 @@ div.onShadow div.makBook a {
 }
 div.onShadow div.makBook a:hover {
 	color: aqua;
+	transition: 2s;
 }
+/* CONTENT UP END */
+/* CONTENT DOWN BEGIN */
+div.contentDown {
+	background: #e8e8e8;
+	position: absolute;
+	width: 1200px;
+}
+div.contentDown h2 {
+	text-indent: 150px; 
+	text-shadow: 0 0 10px #717171;
+	margin: 20px 0 20px 0;
+}
+div.contentDown p, hr {
+	margin: 10px  150px 0 150px; 
+	color: #626262;
+}
+div.contentDown hr {
+	margin-right: 150px;
+}
+/* CONTENT LEFT BEGIN */
+.contentLeft {
+	width: 600px;
+	margin-top: 20px;
+	float: left;
+}
+.contentLeft h3, hr {
+	padding-left: 150px; 
+	margin-top: 10px;
+	margin-right: 0px;
+}
+div.com1, div.com2 {
+	padding: 10px 0 0 150px; 
+}
+div.comFoto1 {
+	background: url(img/1267.jpg);
+	height: 100px;
+	width: 100px;
+	float: left;
+	border: 3px solid white;
+}
+div.coment {
+	padding-left: 110px;
+	margin-bottom: 10px;
+}
+/* CONTENT LEFT END */
+/* CONTENT RIGHT BEGIN */
+div.contentRight {
+	padding-left: 600px;
+	margin: 30px 0 0 40px;
+}
+div.contentRight hr {
+	padding-left: 0px;
+	margin: 10px 150px 10px 0;
+}
+div.pict {
+	background: white;
+	height: 100px;
+	width: 410px;
+}
+div.picture {
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 0;
+	margin: 0 1px 0 1px;
+}
+div.sometext hr {
+ 	margin-right: 10px;
+}
+div.sometext div.sometext1 p, div.sometext2 p {
+ 	margin: 0;
+}
+div.sometext1, div.sometext2 {
+	margin-top: 10px;
+	width: 205px;
+	float: left;
+}
+form .email {
+	padding: 5px;
+	border: 3px solid #e5e5e5;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	color: #e5e5e5;
+	margin-top: 30px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width: 190px;
+}
+div.buttonEmail {
+	width: 410px;
+	padding-top: 180px;
+}
+div.buttonEmail button {
+	width: 150px;
+	padding: 10px;
+	border-radius: 5px;
+	color: #3592eb;
+	background-color: #f7f7f7;
+	margin-right: 50px;
+	cursor: pointer;
+}
+div.buttonEmail button:hover {
+	background-color: white;
+	color: blue;
+}
+/* CONTENT RIGHT END */
+/* CONTENT DOWN END */
+/* CONTENT END */
+/* FOTTER BEGIN */
+footer {
+	height: 64px;
+	width: 100%;
+	background: #0f0e16;
+	margin-top: 642px;
+}
+footer div.footer_text {
+	color: #e0e0e0;
+	width: 400px;
+	height: 44px;
+	margin-left: 150px;
+	padding-top: 20px;
+	float: left;
+}
+footer div.fallowUs {
+	color: #e0e0e0;
+	padding-top: 20px;
+	margin-left: 835px;
+}
+footer div.fallowUs div {
+	margin: -2px 8px 0 0;
+	float: left;
+}
+/* FOTTER END */
